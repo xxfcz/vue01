@@ -4,7 +4,7 @@
     <div>
       <ul>
         <li v-for="(item,index) in list" v-bind:key="index">
-          <time v-text="item.create_at"></time>
+          <time v-text="$utils.goodTime(item.create_at)"></time>
           <router-link :to="'/content/' + item.id">
             {{item.title}}
           </router-link>
