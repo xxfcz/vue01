@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header></Header>
+    <myHeader></myHeader>
     <div>
       <ul>
         <li v-for="(item,index) in list" v-bind:key="index">
@@ -11,15 +11,15 @@
         </li>
       </ul>
     </div>
-    <Footer></Footer>
+    <myFooter></myFooter>
   </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import myHeader from "../components/myHeader.vue";
+import myFooter from "../components/myFooter.vue";
 export default {
-  components: { Header, Footer },
+  components: { myHeader, myFooter },
   data() {
     return {
       list: []
