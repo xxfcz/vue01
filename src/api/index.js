@@ -1,5 +1,7 @@
+var config = require('../config')
+
 // 配置API接口地址
-var root = '/api/v1'
+var root = config.apiHost + '/api/v1'
 // 引用axios
 var axios = require('axios')
 // 自定义判断元素类型JS
