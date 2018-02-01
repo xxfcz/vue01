@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Index from '@/page/index'
 import Content from '@/page/content'
 import Test from '@/page/test.vue'
+import ue from '@/page/ue.vue'
 
 Vue.use(Router)
 
@@ -21,6 +22,9 @@ export default new Router({
     },{
       path: '/hello',
       component: HelloWorld
+    },{
+      path: '/ue',
+      component: ue
     }
   ]
 })
