@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <img src="static/image/logo.png">
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -109,5 +110,9 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.hello{
+  background-image: url('../../static/image/bg_beach.jpg');
 }
 </style>

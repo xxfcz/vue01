@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-//import HelloWorld from '@/components/HelloWorld'
+import HelloWorld from '@/components/HelloWorld'
 import Index from '@/page/index'
 import Content from '@/page/content'
 import Test from '@/page/test.vue'
@@ -18,6 +18,9 @@ export default new Router({
     },{
       path: '/test',
       component: Test
+    },{
+      path: '/hello',
+      component: HelloWorld
     }
   ]
 })
